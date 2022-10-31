@@ -247,7 +247,7 @@ fun Messages(
                     }
                 } else if (index == 2) {
                     item {
-                        DayHeader("Today")
+                        DayHeader("Сегодня")
                     }
                 }
 
@@ -502,7 +502,7 @@ fun ConversationPreview() {
 @Composable
 fun channelBarPrev() {
     JetchatTheme {
-        ChannelNameBar(channelName = "composers", channelMembers = 52)
+        ChannelNameBar(channelName = "консультации", channelMembers = 52)
     }
 }
 

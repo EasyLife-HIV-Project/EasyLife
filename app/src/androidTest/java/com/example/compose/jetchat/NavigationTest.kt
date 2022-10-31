@@ -50,7 +50,7 @@ class NavigationTest {
     fun profileScreen_back_conversationScreen() {
         val navController = getNavController()
         // Navigate to profile        \
-        navigateToProfile("Taylor Brooks")
+        navigateToProfile("Доктор Врач")
         // Check profile is displayed
         assertEquals(navController.currentDestination?.id, R.id.nav_profile)
         // Extra UI check
@@ -70,9 +70,9 @@ class NavigationTest {
      */
     @Test
     fun drawer_conversationScreen_backstackPopUp() {
-        navigateToProfile("Ali Conors (you)")
+        navigateToProfile("Тестовая белка #5634 Сегодня")
         navigateToHome()
-        navigateToProfile("Taylor Brooks")
+        navigateToProfile("Доктор Врач")
         navigateToHome()
 
         // Chewie, we're home
@@ -99,7 +99,7 @@ class NavigationTest {
             composeTestRule.activity.getString(R.string.navigation_drawer_open)
         ).performClick()
 
-        composeTestRule.onNode(hasText("composers") and isInDrawer()).performClick()
+        composeTestRule.onNode(hasText("консультации") and isInDrawer()).performClick()
     }
 
     private fun getNavController(): NavController {

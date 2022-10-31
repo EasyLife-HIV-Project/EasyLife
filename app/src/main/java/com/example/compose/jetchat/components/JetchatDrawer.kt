@@ -65,13 +65,13 @@ fun JetchatDrawerContent(
         Spacer(Modifier.windowInsetsTopHeight(WindowInsets.statusBars))
         DrawerHeader()
         DividerItem()
-        DrawerItemHeader("Chats")
-        ChatItem("composers", true) { onChatClicked("composers") }
-        ChatItem("droidcon-nyc", false) { onChatClicked("droidcon-nyc") }
+        DrawerItemHeader("Чаты")
+        ChatItem("консультации", true) { onChatClicked("консультации") }
+        ChatItem("поддержка", false) { onChatClicked("поддержка") }
         DividerItem(modifier = Modifier.padding(horizontal = 28.dp))
-        DrawerItemHeader("Recent Profiles")
-        ProfileItem("Ali Conors (you)", meProfile.photo) { onProfileClicked(meProfile.userId) }
-        ProfileItem("Taylor Brooks", colleagueProfile.photo) {
+        DrawerItemHeader("Пользователи")
+        ProfileItem("Тестовая белка #5634 (Вы)", meProfile.photo) { onProfileClicked(meProfile.userId) }
+        ProfileItem("Доктор Врач", colleagueProfile.photo) {
             onProfileClicked(colleagueProfile.userId)
         }
     }

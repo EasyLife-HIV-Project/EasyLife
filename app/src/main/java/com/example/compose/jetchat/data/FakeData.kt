@@ -23,47 +23,42 @@ import com.example.compose.jetchat.profile.ProfileScreenState
 
 private val initialMessages = listOf(
     Message(
-        "me",
-        "Check it out!",
+        "я",
+        "До свидания!",
         "8:07 PM"
     ),
     Message(
-        "me",
-        "Thank you!",
+        "я",
+        "Спасибо!",
         "8:06 PM",
         R.drawable.sticker
     ),
     Message(
-        "Taylor Brooks",
-        "You can use all the same stuff",
+        "Доктор Врач",
+        "Можете принять тестовую таблетку",
         "8:05 PM"
     ),
     Message(
-        "Taylor Brooks",
-        "@aliconors Take a look at the `Flow.collectAsStateWithLifecycle()` APIs",
+        "Доктор Врач",
+        "@ТестоваяБелка5634 обрати внимание на сыпь на руке",
         "8:05 PM"
     ),
     Message(
-        "John Glenn",
-        "Compose newbie as well, have you looked at the JetNews sample? Most blog posts end up " +
-            "out of date pretty fast but this sample is always up to date and deals with async " +
-            "data loading (it's faked but the same idea applies) \uD83D\uDC49" +
-            "https://github.com/android/compose-samples/tree/master/JetNews",
+        "Доктор Второй",
+        "Ясность нашей позиции очевидна: новая модель организационной деятельности предполагает независимые способы реализации как самодостаточных, так и внешне зависимых концептуальных решений. Противоположная точка зрения подразумевает, что представители современных социальных резервов, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объединены в целые кластеры себе подобных. Безусловно, базовый вектор развития, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для новых принципов формирования материально-технической и кадровой базы.",
         "8:04 PM"
     ),
     Message(
-        "me",
-        "Compose newbie: I’ve scourged the internet for tutorials about async data loading " +
-            "but haven’t found any good ones. What’s the recommended way to load async " +
-            "data and emit composable widgets?",
+        "я",
+        "Ясность открывает новые горизонты для новых принципов формирования материально-технической и кадровой базы?",
         "8:03 PM"
     )
 )
 
 val exampleUiState = ConversationUiState(
     initialMessages = initialMessages,
-    channelName = "#composers",
-    channelMembers = 42
+    channelName = "#консультации",
+    channelMembers = 3
 )
 
 /**
@@ -72,26 +67,26 @@ val exampleUiState = ConversationUiState(
 val colleagueProfile = ProfileScreenState(
     userId = "12345",
     photo = R.drawable.someone_else,
-    name = "Taylor Brooks",
-    status = "Away",
-    displayName = "taylor",
-    position = "Senior Android Dev at Openlane",
-    twitter = "twitter.com/taylorbrookscodes",
-    timeZone = "12:25 AM local time (Eastern Daylight Time)",
+    name = "Доктор Врач",
+    status = "Не в сети",
+    displayName = "Доктор Врач",
+    position = "Врач-дерматолог СПИД-центра",
+    twitter = "vk.com/ДокторВрач",
+    timeZone = "12:25 (Екатеринбург)",
     commonChannels = "2"
 )
 
 /**
- * Example "me" profile.
+ * Example "я" profile.
  */
 val meProfile = ProfileScreenState(
-    userId = "me",
+    userId = "я",
     photo = R.drawable.ali,
-    name = "Ali Conors",
-    status = "Online",
-    displayName = "aliconors",
-    position = "Senior Android Dev at Yearin\nGoogle Developer Expert",
-    twitter = "twitter.com/aliconors",
-    timeZone = "In your timezone",
+    name = "Тестовая белка",
+    status = "Онлайн",
+    displayName = "Тестовая белка #5634",
+    position = "Пациент",
+    twitter = "-",
+    timeZone = "12:00 (Серов)",
     commonChannels = null
 )

@@ -76,7 +76,7 @@ Checks that the user input composable, including extended controls, behave as ex
 1. If the emoji selector is shown, clicking on the TextField can sometimes show both input methods.
 Tracked in https://issuetracker.google.com/164859446
 
-2. There are only two profiles, clicking on anybody except "me" will show the same data.
+2. There are only two profiles, clicking on anybody except "я" will show the same data.
 
 ## License
 ```
