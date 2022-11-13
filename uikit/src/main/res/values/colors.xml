@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Light -->
+    <color name="cyan500">#70E1E5</color>
+    <color name="cyan800">#159DC3</color>
+    <color name="red500">#E33F3F</color>
+    <!-- Dark -->
+    <color name="cyan300">#9DFAFD</color>
+    <color name="cyan400">#80EFF3</color>
+    <color name="red300">#F56565</color>
+
+    <!-- Logo -->
+    <color name="red_logo">@color/red500</color>
+    <color name="cyan_logo">@color/cyan500</color>
+
+    <!-- Status bar -->
+    <color name="black30">#4D000000</color>
+
+</resources>

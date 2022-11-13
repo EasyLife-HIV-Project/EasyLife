@@ -1,36 +1,22 @@
-/*
- * Copyright 2021 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     https://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+
 
 package com.example.compose.jetchat.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Blue10 = Color(0xFF000F5E)
-val Blue20 = Color(0xFF001E92)
-val Blue30 = Color(0xFF002ECC)
-val Blue40 = Color(0xFF1546F6)
-val Blue80 = Color(0xFFB8C3FF)
-val Blue90 = Color(0xFFDDE1FF)
+val Cyan10 = Color(0xFF70E1E5)
+val Cyan20 = Color(0xE670E1E5)
+val Cyan30 = Color(0xCC70E1E5)
+val Cyan40 = Color(0xB370E1E5)
+val Cyan80 = Color(0x9970E1E5)
+val Cyan90 = Color(0x8070E1E5)
 
-val DarkBlue10 = Color(0xFF00036B)
-val DarkBlue20 = Color(0xFF000BA6)
-val DarkBlue30 = Color(0xFF1026D3)
-val DarkBlue40 = Color(0xFF3648EA)
-val DarkBlue80 = Color(0xFFBBC2FF)
-val DarkBlue90 = Color(0xFFDEE0FF)
+val DarkBlue10 = Color(0xFF159DC3)
+val DarkCyan20 = Color(0xE6159DC3)
+val DarkCyan30 = Color(0xCC159DC3)
+val DarkCyan40 = Color(0xB3159DC3)
+val DarkCyan80 = Color(0x99159DC3)
+val DarkCyan90 = Color(0x80159DC3)
 
 val Yellow10 = Color(0xFF261900)
 val Yellow20 = Color(0xFF402D00)
@@ -39,12 +25,12 @@ val Yellow40 = Color(0xFF7A5900)
 val Yellow80 = Color(0xFFFABD1B)
 val Yellow90 = Color(0xFFFFDE9C)
 
-val Red10 = Color(0xFF410001)
-val Red20 = Color(0xFF680003)
-val Red30 = Color(0xFF930006)
-val Red40 = Color(0xFFBA1B1B)
-val Red80 = Color(0xFFFFB4A9)
-val Red90 = Color(0xFFFFDAD4)
+val Red10 = Color(0xFF850202)
+val Red20 = Color(0xFFA30F0F)
+val Red30 = Color(0xFFC22D2D)
+val Red40 = Color(0xFFF56565)
+val Red80 = Color(0xCCF56565)
+val Red90 = Color(0x99F56565)
 
 val Grey10 = Color(0xFF191C1D)
 val Grey20 = Color(0xFF2D3132)

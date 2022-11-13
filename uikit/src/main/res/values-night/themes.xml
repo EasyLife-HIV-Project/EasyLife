@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Our dark theme -->
+    <style name="Theme.Jetchat" parent="Platform.Theme.Jetchat" >
+        <item name="colorPrimary">@color/cyan300</item>
+        <item name="colorPrimaryDark">@color/cyan400</item>
+        <item name="colorAccent">@color/red300</item>
+    </style>
+
+</resources>

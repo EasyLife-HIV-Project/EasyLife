@@ -85,7 +85,7 @@ private fun DrawerHeader() {
             modifier = Modifier.size(24.dp)
         )
         Image(
-            painter = painterResource(id = R.drawable.jetchat_logo),
+            painter = painterResource(id = R.drawable.easy_life_text_logo),
             contentDescription = null,
             modifier = Modifier.padding(start = 8.dp)
         )

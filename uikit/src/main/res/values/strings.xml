@@ -1,0 +1,53 @@
+
+<resources>
+    <string name="app_name">EasyLife</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Composer</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="menu_home">Главная</string>
+    <string name="menu_gallery">Галерея</string>
+    <string name="menu_slideshow">Слайдшоу</string>
+    <string name="conversations">Чаты</string>
+    <string name="profile">Профиль</string>
+    <string name="jumpBottom">К последним сообщениям</string>
+    <string name="send">Отпр.</string>
+    <string name="author_me">me</string>
+    <string name="now">8:30</string>
+    <string name="members">%d участников</string>
+    <string name="textfield_hint">Написать</string>
+    <string name="emojis_label">Эмоджи</string>
+    <string name="stickers_label">Стикеры</string>
+
+    <string name="message">Сообщение</string>
+    <string name="edit_profile">Изменить профиль</string>
+    <string name="profile_error">Ошибка при загрузке профиля</string>
+    <string name="bio">Био</string>
+    <string name="display_name">Имя</string>
+    <string name="status">Статус</string>
+    <string name="timezone">Часовой пояс</string>
+    <string name="twitter">Twitter</string>
+    <string name="common_channels">Общие чаты</string>
+    <string name="lorem">Lorem or Ipsum</string>
+
+    <!-- Accessibility descriptions -->
+
+    <string name="emoji_selector_desc">Выбрать эмоджи</string>
+    <string name="emoji_selector_bt_desc">Выбор эмоджи</string>
+    <string name="dm_desc">Личное сообщение</string>
+    <string name="attach_photo_desc">Прикрепить фото</string>
+    <string name="map_selector_desc">Местоположение</string>
+    <string name="videochat_desc">Начать видеозвонок</string>
+    <string name="textfield_desc">Ввод текста</string>
+    <string name="not_available">Функция сейчас недоступна</string>
+    <string name="not_available_subtitle">Недоступно. Попробуйте позже</string>
+    <string name="attached_image">Прикрепленное изображение</string>
+    <string name="search">Поиск</string>
+    <string name="info">Информация</string>
+    <string name="more_options">Больше…</string>
+
+</resources>
