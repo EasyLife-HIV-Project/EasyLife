@@ -20,6 +20,7 @@ plugins {
 }
 
 android {
+
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
@@ -31,6 +32,11 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
         vectorDrawables.useSupportLibrary = true
+    }
+
+    sourceSets.getByName("main") {
+        assets.srcDir("assets")
+        jniLibs.srcDir("libs")
     }
 
     signingConfigs {
@@ -73,8 +79,8 @@ android {
     packagingOptions {
         // Multiple dependency bring these files in. Exclude them to enable
         // our test APK to build (has no effect on our AARs)
-        excludes += "/META-INF/AL2.0"
-        excludes += "/META-INF/LGPL2.1"
+        resources.excludes += "/META-INF/AL2.0"
+        resources.excludes += "/META-INF/LGPL2.1"
     }
 }
 
@@ -118,4 +124,18 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
 
     implementation(project(":uikit"))
+
+    val gdxVersion = "1.11.0"
+    implementation("com.badlogicgames.gdx:gdx-backend-android:$gdxVersion")
+    implementation("com.badlogicgames.gdx:gdx-box2d:$gdxVersion")
+    implementation("com.badlogicgames.gdx:gdx:$gdxVersion")
+    implementation("com.badlogicgames.gdx:gdx-box2d:$gdxVersion")
+    implementation("androidx.core:core-ktx:1.9.0")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:$kotlin")
+    implementation("com.badlogicgames.gdx:gdx-platform:1.9.8:natives-armeabi")
+    implementation("com.badlogicgames.gdx:gdx-platform:1.9.8:natives-armeabi-v7a")
+    implementation("com.badlogicgames.gdx:gdx-platform:1.9.8:natives-x86")
+    implementation("com.badlogicgames.gdx:gdx-box2d-platform:1.9.8:natives-armeabi")
+    implementation("com.badlogicgames.gdx:gdx-box2d-platform:1.9.8:natives-armeabi-v7a")
+    implementation("com.badlogicgames.gdx:gdx-box2d-platform:1.9.8:natives-x86")
 }
